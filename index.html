@@ -1,9 +1,159 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <body>
-        <h1>Hello World</h1>
-            <p>I'm hosted with GitHub Pages.</p>
-    </body>
+	<title>Madhusudhan Srinivas | Awesome Dev</title>
 
-    </html>
+	<link rel="icon" href="favicons.ico" type="image/png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Leckerli+One" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<link rel="stylesheet" href="css/themes/my-theme.css">
+	
+</head>
+<body>
+	<main class="insights-hero hero" id="particles">
+
+        <!-- <div>
+           <img src="./anti_dribbble.gif" />
+		</div> -->
+
+		<div class="block">
+		   <div class="intro">Hello, I'm Madhusudhan!</div>
+		
+		<div class="tagline">Full Stack Dev | Code Warrior</div>
+		<!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+		<div class="icons-social">
+			<a target="_blank" href="https://github.com/Madhusudhan-Srinivas"><i class="fab fa-github"></i></a>
+			<a target="_blank" href="https://stackoverflow.com/users/4014062/madhu"><i class="fab fa-stack-overflow"></i></a>
+			<a target="_blank" href="https://in.linkedin.com/in/madhusudhansrinivas"><i class="fab fa-linkedin"></i></a>
+			<a target="_blank" href="https://dev.to/madhusudhansrinivas"><i class="fas fa-external-link-square-alt"></i></a>
+	    </div>
+		</div>
+		
+		<canvas class="particles-js-canvas-el" width="1099" height="400" style="width: 100%; height: 100%;"></canvas>
+	</main>
+
+
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+	<script>
+		(function () {
+			var config = {
+				"particles": {
+					"number": {
+						"value": 80,
+						"density": {
+							"enable": true,
+							"value_area": 800
+						}
+					},
+					"color": {
+						"value": "#ffffff"
+					},
+					"shape": {
+						"type": "circle",
+						"stroke": {
+							"width": 0,
+							"color": "#90c7e3"
+						},
+						"polygon": {
+							"nb_sides": 5
+						},
+						"image": {
+							"width": 100,
+							"height": 100
+						}
+					},
+					"opacity": {
+						"value": 0.5,
+						"random": false,
+						"anim": {
+							"enable": false,
+							"speed": 1,
+							"opacity_min": 0.1,
+							"sync": false
+						}
+					},
+					"size": {
+						"value": 3,
+						"random": true,
+						"anim": {
+							"enable": false,
+							"speed": 40,
+							"size_min": 0.1,
+							"sync": false
+						}
+					},
+					"line_linked": {
+						"enable": true,
+						"distance": 150,
+						"color": "#90c7e3",
+						"opacity": 0.4,
+						"width": 1
+					},
+					"move": {
+						"enable": true,
+						"speed": 3,
+						"direction": "none",
+						"random": false,
+						"straight": false,
+						"out_mode": "out",
+						"bounce": false,
+						"attract": {
+							"enable": false,
+							"rotateX": 600,
+							"rotateY": 1200
+						}
+					}
+				},
+				"interactivity": {
+					"detect_on": "canvas",
+					"events": {
+						"onclick": {
+							"enable": true,
+							"mode": "push"
+						},
+						"resize": true
+					},
+					"modes": {
+						"grab": {
+							"distance": 400,
+							"line_linked": {
+								"opacity": 1
+							}
+						},
+						"bubble": {
+							"distance": 400,
+							"size": 40,
+							"duration": 2,
+							"opacity": 8,
+							"speed": 3
+						},
+						"repulse": {
+							"distance": 200,
+							"duration": 0.4
+						},
+						"push": {
+							"particles_nb": 4
+						},
+						"remove": {
+							"particles_nb": 2
+						}
+					}
+				},
+				"retina_detect": true
+			}
+			particlesJS("particles", config);
+		})()
+	</script>
+
+</body>
+</html>
